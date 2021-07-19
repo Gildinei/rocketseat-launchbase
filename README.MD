@@ -1,12 +1,12 @@
-# Iniciando com a programação web
+# FASE 02 - Iniciando com a programação web
 ---
-
+## AULA 01 - Iniciando no JavaScript
 ### O que é programação?
 Programção é o ato de ensinar, passar instruções, ao computador. Podemos chamar essas instruções de algoritmos.
 
 Algoritmo é um conjuto de regras e passos finitos a serem seguindos para a resolução de problema.
 
-## Iniciando no JavaScript
+## AULA 02 - Iniciando no JavaScript
 ---
 
 ### Declaração de variáveis
@@ -21,7 +21,7 @@ Declarar varáveis com a key word `const` não permitá a alteração de seu val
 console.log(constante);
 ```
 
-## Comentários, Strings e Numbers
+## AULA 03 - Comentários, Strings e Numbers
 ---
 
 ### Comentários
@@ -47,7 +47,7 @@ const idade = 29;
 const peso = 114.7
 ```
 
-## Fazendo cálculos com JavaScript
+## AULA 04 - Fazendo cálculos com JavaScript
 ---
 Criar um programa que receba o nome e a nota de 3 alunos, que calcule a média entre eles, que exiba o nome e nota individual de cada um .
 
@@ -70,7 +70,7 @@ console.log(`Aluno ${aluno03}, nota ${notaAluno03}`);
 console.log(`Média final das notas ${media}`);
 ```
 
-## Condicionais
+## AULA 05 - Condicionais
 ---
 Se a média da turma for maior que 5, exiba a nota e parabenize a turma.
 ```js
