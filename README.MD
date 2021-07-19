@@ -133,3 +133,48 @@ if (idade >= 18) {
 
 ## AULA 07 - Operadores lógicos e aritméticos
 ---
+### Operadores Lógicos
+Operador `&&`(E): As condições devem ser verdadeiras para que o retorno seja verdadeiro.
+```js
+console.log(5 == 5 && 6 == 6); // true;
+console.log(5 == 5 && 6 == 7); // false;
+console.log(5 == 4 && 6 == 7); // false;
+```
+
+Operador `||`(OU): Uma das condições devem ser verdadeiras para que o retorno seja verdadeiro.
+```js
+console.log(5 == 5 || 6 == 6); // true
+console.log(5 == 5 || 6 == 7); // true
+console.log(5 == 4 || 6 == 7); // false
+```
+
+Operador `!`(NOT): Nega o retorno de uma condição.
+```js
+console.log((5 == 5) && (6 == 6)); // true
+```
+
+### Operadores Aritméticos
+Operador `+` (ADIÇÃO)
+```js
+console.log(5 + 5);
+```
+
+Operador `-` (SUBTRAÇÃO)
+```js
+console.log(5 - 5);
+```
+
+Operador `*` (MULTIPLICAÇÃO)
+```js
+console.log(5 * 5);
+```
+
+Operador `/` (DIVISÃO)
+```js
+console.log(5 / 5);
+```
+
+Operador `%` (RESTO)
+```js
+console.log(5 % %);
+```
