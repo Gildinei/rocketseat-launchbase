@@ -34,6 +34,8 @@ comentário de block
 */
 ```
 ### String
+Existem três forma de declarar `strings` em JavaScript, fazendo uso de `""`(aspas duplas), `''`(aspas simples) e ` `` `(crases), que também podemos chamar de `template strings`.
+
 ```js
 const nome = "Gildinei";
 const nome = 'Gildinei';
@@ -43,4 +45,25 @@ const nome = `Gildinei`;
 ```js
 const idade = 29;
 const peso = 114.7
+```
+
+## Fazendo cálculos com JavaScript
+---
+Criar um programa que receba o nome e a nota de 3 alunos, que calcule a média entre eles, que exiba o nome e nota individual de cada um .
+
+```js
+const aluno01 = "Gildinei";
+const aluno02 = "Mayk";
+const aluno03 = "Diego";
+const notaAluno01 = 9.8;
+const notaAluno02 = 10;
+const notaAluno03 = 2;
+
+const media = (notaAluno01 + notaAluno02 + notaAluno03) / 3;
+
+console.log(`Aluno ${aluno01}, nota ${notaAluno01}`);
+console.log(`Aluno ${aluno02}, nota ${notaAluno02}`);
+console.log(`Aluno ${aluno03}, nota ${notaAluno03}`);
+
+console.log(`Média final das notas ${media}`);
 ```
