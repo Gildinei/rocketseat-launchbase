@@ -53,10 +53,12 @@ Criar um programa que receba o nome e a nota de 3 alunos, que calcule a média e
 
 ```js
 const aluno01 = "Gildinei";
-const aluno02 = "Mayk";
-const aluno03 = "Diego";
 const notaAluno01 = 9.8;
+
+const aluno02 = "Mayk";
 const notaAluno02 = 10;
+
+const aluno03 = "Diego";
 const notaAluno03 = 2;
 
 const media = (notaAluno01 + notaAluno02 + notaAluno03) / 3;
@@ -66,4 +68,15 @@ console.log(`Aluno ${aluno02}, nota ${notaAluno02}`);
 console.log(`Aluno ${aluno03}, nota ${notaAluno03}`);
 
 console.log(`Média final das notas ${media}`);
+```
+
+## Condicionais
+---
+Se a média da turma for maior que 5, exiba a nota e parabenize a turma.
+```js
+if (media > 5) {
+    console.log(`Média: ${media}. Se sairam bem, continuem estudando!`);
+} else {
+    console.log(`Média ${media}. Ainda não, estudem mais um pouco, da pra melhorar.`);
+}
 ```
