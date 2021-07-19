@@ -33,3 +33,14 @@ console.log(constante);
 comentário de block
 */
 ```
+### String
+```js
+const nome = "Gildinei";
+const nome = 'Gildinei';
+const nome = `Gildinei`;
+```
+### Numbers
+```js
+const idade = 29;
+const peso = 114.7
+```
