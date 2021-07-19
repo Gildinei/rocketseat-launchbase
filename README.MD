@@ -130,3 +130,6 @@ if (idade >= 18) {
     console.log(`${idade} anos, não pode entrar.`);
 }
 ```
+
+## AULA 07 - Operadores lógicos e aritméticos
+---
