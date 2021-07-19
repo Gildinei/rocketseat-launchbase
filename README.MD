@@ -80,3 +80,53 @@ if (media > 5) {
     console.log(`Média ${media}. Ainda não, estudem mais um pouco, da pra melhorar.`);
 }
 ```
+
+## AULA 06 - Operadores relacionais e comparativos
+---
+Igual a
+```js
+console.log(5 == 4)
+```
+
+Igual e do mesmo tipo a
+```js
+console.log(5 === 4)
+```
+
+Diferente de
+```js
+console.log(5 != 4)
+```
+
+Diferente, inclusive do tipo de
+```js
+console.log(5 !== 4)
+```
+
+Maior que
+```js
+console.log(5 > 4)
+```
+
+Menor que
+```js
+console.log(5 < 4)
+```
+
+Menor ou igual a
+```js
+console.log(5 <= 4)
+```
+
+Maior ou igual a
+```js
+console.log(5 >= 4)
+```
+Faça uso das condicionais e operadores relacionais para fazer as seguintes verificações, se a idade for maior que 18 deixe entrar, se não, não deixe entrar.
+```js
+if (idade >= 18) {
+    console.log(`${idade} anos, pode entrar.`);
+}else {
+    console.log(`${idade} anos, não pode entrar.`);
+}
+```
