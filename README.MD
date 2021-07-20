@@ -178,3 +178,41 @@ Operador `%` (RESTO)
 ```js
 console.log(5 % %);
 ```
+
+# DESAFIO 1 - 1: Primeiros passos com JS
+https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md
+
+## Cálculo de IMC
+```js
+const nome = "Nicole";
+const peso = 44;
+const altura = 1.54;
+
+const imc = peso / (altura * altura);
+
+if (imc >= 30) {
+    console.log(`${nome} você está acima do peso`);
+} else {
+    console.log(`${nome} você não está acima do peso`);
+};
+```
+
+## Cálculo de IMC
+
+```js
+const nome = "Gildinei";
+const sexo = "M";
+const idade = 60;
+const contribuicao = 45;
+
+const calculaTempoContribuicao = idade + contribuicao;
+
+const homem = sexo == 'M' && contribuicao >= 35 && calculaTempoContribuicao >= 95
+const mulher = sexo == 'F' && contribuicao >= 30 && calculaTempoContribuicao >= 85
+
+if (homem || mulher) {
+    console.log(`${nome}, você pode se aposentar!`);
+} else {
+    console.log(`${nome}, você ainda não pode se aposentar!`);
+};
+```
