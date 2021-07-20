@@ -268,3 +268,37 @@ console.log(`Aluno ${alunos[2].nome}, nota ${alunos[2].nota}`);
 
 console.log(`Média ${media}`);
 ```
+
+# DESAFIO 1 - 1: Primeiros passos com JS
+https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md
+
+## Construção e impressão de objetos
+```js
+const empresa = {
+    nome: "Rocketseat",
+    cor: "Roxo",
+    foco: "Programação",
+    endereco: {
+        rua: "Rua Guilherme Gembala",
+        numero: "260"
+    }
+};
+
+console.log(`A empresa ${empresa.nome} está localizada em ${empresa.endereco.rua}, ${empresa.endereco.numero}`);
+```
+
+## Vetores e objetos
+
+```js
+const programador = {
+    nome: "Gildinei",
+    idade: "29",
+    tecnologias: [
+        { nome: 'C++', especialidade: 'Desktop' },
+        { nome: 'Python', especialidade: 'Data Science' },
+        { nome: 'JavaScript', especialidade: 'Web/Mobile' },
+    ],
+};
+
+console.log(`O usuário ${programador.nome} tem ${programador.idade} anos e usa a tecnologia ${programador.tecnologias[0].nome} com especialidade em ${programador.tecnologias[0].especialidade}`);
+```
