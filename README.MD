@@ -269,7 +269,7 @@ console.log(`Aluno ${alunos[2].nome}, nota ${alunos[2].nota}`);
 console.log(`Média ${media}`);
 ```
 
-# DESAFIO 1 - 1: Primeiros passos com JS
+# DESAFIO 1 - 2: Lidando com objetos e vetores
 https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md
 
 ## Construção e impressão de objetos
@@ -301,4 +301,48 @@ const programador = {
 };
 
 console.log(`O usuário ${programador.nome} tem ${programador.idade} anos e usa a tecnologia ${programador.tecnologias[0].nome} com especialidade em ${programador.tecnologias[0].especialidade}`);
+```
+
+# DESAFIO 1 - 3: Funções e estruturas de repetição
+https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md
+
+## Usuários e tecnologias
+```js
+const usuarios = [
+    { nome: "Gildinei", tecnologias: ["HTML", "CSS"] },
+    { nome: "Nicole", tecnologias: ["JavaScript", "CSS"] },
+    { nome: "Kiara", tecnologias: ["HTML", "Node.js"] }
+];
+
+for (let i = 0; i < usuarios.length; i++) {
+    console.log(`${usuarios[i].nome} trabalha com ${usuarios[i].tecnologias}`);
+};
+```
+
+## Busca por tecnologia
+```js
+const usuarios = [
+    { nome: "Gildinei", tecnologias: ["HTML", "CSS"] },
+    { nome: "Nicole", tecnologias: ["JavaScript", "CSS"] },
+    { nome: "Kiara", tecnologias: ["HTML", "Node.js"] },
+];
+
+
+function checaSeUsuarioUsaCSS(usuario) {
+    for (let i = 0; i < usuario.tecnologias.length; i++) {
+        if (usuario.tecnologias[i] === "CSS") {
+            return true;
+        };
+    };
+
+    return false;
+};
+
+for (let i = 0; i < usuarios.length; i++) {
+    const usuarioTrabalhaComCSS = checaSeUsuarioUsaCSS(usuarios[i]);
+
+    if (usuarioTrabalhaComCSS) {
+        console.log(`O usuário ${usuarios[i].nome} trabalha com CSS`);
+    };
+};
 ```
