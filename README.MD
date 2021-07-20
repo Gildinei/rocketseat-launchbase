@@ -239,3 +239,6 @@ const aluno03 = {
 
 const media = (aluno01.nota + aluno02.nota + aluno03.nota) / 3;
 ```
+
+## AULA 09 - Vetores
+---
