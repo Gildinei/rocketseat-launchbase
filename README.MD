@@ -180,6 +180,7 @@ console.log(5 % %);
 ```
 
 # DESAFIO 1 - 1: Primeiros passos com JS
+
 https://github.com/rocketseat-education/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md
 
 ## Cálculo de IMC
@@ -215,4 +216,26 @@ if (homem || mulher) {
 } else {
     console.log(`${nome}, você ainda não pode se aposentar!`);
 };
+```
+
+## AULA 08 - Objetos
+---
+
+```js
+const aluno01 = {
+    nome: "Gildinei",
+    nota: 9.8
+};
+
+const aluno02 = {
+    nome: "Mayk",
+    nota: 10
+};
+
+const aluno03 = {
+    nome: "Diego",
+    nota: 2
+};
+
+const media = (aluno01.nota + aluno02.nota + aluno03.nota) / 3;
 ```
