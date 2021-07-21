@@ -1,27 +1,35 @@
+:root {
+    --main-color: #f76606;
+    --background-color: #282A36;
+    --background-second: rgb(0, 0, 0, 0.2);
+    --text-color: #FFF;
+}
+
 * {
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background: #282A36;
-    color: #FFF;
+    background: var(--background-color);
+    color: var(--text-color);
     font-family: 'Prompt', sans-serif;
 }
 
 header {
     padding: 32px;
-    border-bottom: 2px solid #f76606;
-    background: rgb(0, 0, 0, 0.2);
+    border-bottom: 2px solid var(--main-color);
+    background: var(--background-second);
 }
 
 header div {
-    text-align: center;    
+    text-align: center;
 }
 
 header div a {
-    color: #FFF;
+    color: var(--text-color);
     font-size: 24px;
     line-height: 34px;
     margin: 0 16px;
@@ -30,7 +38,7 @@ header div a {
 }
 
 header div a:hover {
-    color: #f76606;
+    color: var(--main-color);
 }
 
 #wrapper {
@@ -41,20 +49,20 @@ header div a:hover {
 #wrapper img {
     margin-bottom: 32px;
     border-radius: 50%;
-    border-bottom: 2px solid transparent;
+    border-bottom: 4px solid var(--background-second);
     transition: border 0.2s;
 }
 
 #wrapper img:hover {
-    border-bottom-color: #f76606;
+    border-bottom-color: var(--main-color);
 }
 
 #wrapper h1 {
     font-size: 42px;
     line-height: 52px;
     margin-bottom: 8px;
-    color: #f76606;
-    text-shadow: 5px 5px 2px rgb(0, 0, 0, 0.2);
+    color: var(--main-color);
+    text-shadow: 5px 5px 2px var(--background-second);
     font-weight: bold;
 }
 
@@ -69,4 +77,22 @@ header div a:hover {
     margin: 32px auto;
     font-size: 18px;
     line-height: 28px;
+}
+
+#wrapper p a {
+    padding: 0 10px;
+    border-radius: 5px;
+    color: var(--main-color);
+    background: var(--background-second);
+    border: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+
+#wrapper p a:hover {
+    border-color: var(--main-color);
+    text-decoration: none;
+}
+
+#wrapper p strong {
+    color: var(--main-color);
 }
