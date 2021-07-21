@@ -12,12 +12,12 @@ body {
 
 header {
     padding: 32px;
-    border-bottom: 1px solid #333;
+    border-bottom: 2px solid #f76606;
     background: rgb(0, 0, 0, 0.1);
 }
 
 header div {
-    text-align: center;
+    text-align: center;    
 }
 
 header div a {
@@ -26,9 +26,25 @@ header div a {
     line-height: 34px;
     margin: 0 16px;
     text-decoration: none;
-    transition: color 0.2s;
+    transition: border 0.2s;
 }
 
 header div a:hover {
-    color: orange;
+    color: #f76606;
+}
+
+#wrapper {
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper img {
+    margin-bottom: 32px;
+    border-radius: 50%;
+    border-bottom: 2px solid #282A36;
+    transition: border 0.2s;
+}
+
+#wrapper img:hover {
+    border-bottom-color: #f76606;
 }
