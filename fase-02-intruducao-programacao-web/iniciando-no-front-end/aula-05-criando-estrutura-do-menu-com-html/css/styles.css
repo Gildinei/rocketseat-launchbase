@@ -106,3 +106,21 @@ header {
 #links-footer a {
     border-bottom: 1px solid var(--main-color);
 }
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--background-second);
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.content-card,
+.info-card {
+    padding: 24px;
+}
