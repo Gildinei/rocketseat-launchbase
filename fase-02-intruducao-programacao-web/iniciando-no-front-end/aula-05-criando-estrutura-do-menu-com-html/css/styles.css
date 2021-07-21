@@ -13,7 +13,7 @@ body {
 header {
     padding: 32px;
     border-bottom: 2px solid #f76606;
-    background: rgb(0, 0, 0, 0.1);
+    background: rgb(0, 0, 0, 0.2);
 }
 
 header div {
@@ -41,10 +41,32 @@ header div a:hover {
 #wrapper img {
     margin-bottom: 32px;
     border-radius: 50%;
-    border-bottom: 2px solid #282A36;
+    border-bottom: 2px solid transparent;
     transition: border 0.2s;
 }
 
 #wrapper img:hover {
     border-bottom-color: #f76606;
+}
+
+#wrapper h1 {
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 8px;
+    color: #f76606;
+    text-shadow: 5px 5px 2px rgb(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+#wrapper h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+}
+
+#wrapper p {
+    max-width: 600px;
+    margin: 32px auto;
+    font-size: 18px;
+    line-height: 28px;
 }
