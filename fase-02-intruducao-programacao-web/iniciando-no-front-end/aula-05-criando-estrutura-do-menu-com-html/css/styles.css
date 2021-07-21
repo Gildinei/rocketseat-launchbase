@@ -110,17 +110,37 @@ header {
 .cards {
     max-width: 800px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    
 }
 
 .card {
     background-color: var(--background-second);
+    padding: 8px;
 }
 
 .image-container img {
+    border-radius: 10px;
     width: 100%;
 }
 
 .content-card,
 .info-card {
     padding: 24px;
+}
+
+.info-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.card-source {
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: var(--main-color);
+    filter: brightness(80%);
+    text-align: center;
 }
