@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background: #999;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #666;
+    text-align: center;
+    padding: 30px;
+}
+
+header a {
+    margin: 0 30px;
+    font-size: 18px;
+    color: #FFF;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+header a:hover {
+    color: #333;
+}
