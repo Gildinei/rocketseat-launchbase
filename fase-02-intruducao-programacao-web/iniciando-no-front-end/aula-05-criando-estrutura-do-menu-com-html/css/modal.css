@@ -4,6 +4,8 @@
     height: 100%;
     position: fixed;
     top: 0;
+    opacity: 0;
+    visibility: hidden;
 }
 
 .modal {
@@ -27,4 +29,9 @@
 
 .modal .close-modal:hover {
     filter: brightness(90%);
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
 }
