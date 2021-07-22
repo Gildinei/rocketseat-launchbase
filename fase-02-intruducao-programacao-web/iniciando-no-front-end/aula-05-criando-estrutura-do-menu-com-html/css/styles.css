@@ -110,16 +110,22 @@ header {
 
 .cards {
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    
+    margin-bottom: 48px;
 }
 
 .card {
-    background-color: var(--background-second);
     padding: 8px;
+    background-color: var(--background-second);
+    border: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+.card:hover {
+    cursor: pointer;
+    border-color: var(--main-color);
 }
 
 .image-container img {
